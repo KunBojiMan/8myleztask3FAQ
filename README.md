@@ -1,2 +1,3 @@
 # 8myleztask3FAQ
-This plugin refers to the products with the help of an FAQ system
+This plugin uses a FAQ system to refer to recommended products based on questions.
+Dieses Plugin weist auf empfohlene Produkte zu, um häufig gestelle Fragen zu vermeiden.
