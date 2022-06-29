@@ -32,12 +32,7 @@ class FaqDefinition extends EntityDefinition
 
     protected function defineFields(): FieldCollection
     {
-        /**
-         * uuid IdField -> primary, required
-         * question LongTextField -> required
-         * answer LongTextField -> required
-         * ManyToManyAssociationField (optional because we can add it to products later)
-         */
+    
 
         return new FieldCollection([
             (new IdField('id','id'))->addFlags(new Required(), new PrimaryKey()),
